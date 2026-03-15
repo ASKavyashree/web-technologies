@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Food Delivery Form</title>
+</head>
+
+<body>
+
+<form name="FoodDeliveryForm">
+
+<div>
+    <h1>Food Delivery Order Form</h1>
+</div>
+
+<hr>
+
+<div>
+    <i>Customer Name</i>
+    <span>*</span>
+    <span>:</span>
+    <input type="text" name="customerName" required>
+</div><br>
+
+<div>
+    <i>Email</i>
+    <span>*</span>
+    <span>:</span>
+    <input type="email" name="email" required>
+</div><br>
+
+<div>
+    <i>Phone Number</i>
+    <span>*</span>
+    <span>:</span>
+    <input type="tel" name="phone" required>
+</div><br>
+
+<div>
+    <i>Select Food</i>
+    <span>*</span>
+    <span>:</span>
+    <select name="food">
+        <option>Pizza</option>
+        <option>Burger</option>
+        <option>Biryani</option>
+        <option>Pasta</option>
+    </select>
+</div><br>
+
+<div>
+    <i>Quantity</i>
+    <span>*</span>
+    <span>:</span>
+    <input type="number" name="quantity">
+</div><br>
+
+<div>
+    <i>Delivery Address</i>
+    <span>*</span>
+    <span>:</span>
+    <textarea name="address"></textarea>
+</div><br>
+
+<div>
+    <i>Payment Method</i>
+    <span>*</span>
+    <span>:</span>
+    <input type="radio" name="payment"> Cash on Delivery
+    <input type="radio" name="payment"> Online Payment
+</div><br>
+
+<div>
+    <button type="submit">Submit</button>
+    <button type="reset">Cancel</button>
+</div>
+
+</form>
+
+</body>
+
+</html>
