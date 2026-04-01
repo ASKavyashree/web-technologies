@@ -1,0 +1,68 @@
+body {
+    font-family: "Times New Roman", serif;
+    background: #f5f5f5;
+}
+
+.resume {
+    width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border: 1px solid #ccc;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin-bottom: 5px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.header p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+
+/* Photo */
+.right img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+/* Sections */
+.section {
+    margin-top: 20px;
+}
+
+.section h2 {
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Row (title + date aligned) */
+.row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+/* List */
+ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
